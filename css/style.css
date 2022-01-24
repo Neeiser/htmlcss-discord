@@ -10,6 +10,17 @@
     width: 100%;
 }
 
+.margin-fix{
+    height: 100vh;
+    width: 100%;
+    margin: 0 10%;
+}
+
+
+/* SEZIONE 1 */
+
+
+
 .page1{
     background-image: url(../img/jumbo.png);
     background-size: contain;
@@ -17,7 +28,7 @@
 }
 
 
-.header-nav-box, .main-box{
+.header-nav-box, main{
     width: 100%;
     margin: 0 auto;
     padding-top: 2%;
@@ -59,31 +70,41 @@ button:active{
     background-color: darkgray;
 }
 
-main{
-    margin: 0 25%;
+.main-box{
     color: white;
 }
 
-main h2,p{
+.main-box h2,p{
     margin: 5% 0;
 }
 
-main h2{  
+.main-box h2{  
     font-size: 3em;
 }
 
-main p{
+.main-box p{
     font-size: 1.5em;
 }
 
-main button{
+.main-box button{
     font-size: 1.1em;
     padding: 20px;
     border-radius: 40px;
     margin: 0 2%;
 }
 
-main button:last-child{
+.main-box button:last-child{
     background-color: #23272a;
     color: white;
+}
+
+
+
+
+/* SEZIONE 2 */
+
+
+
+.box2{
+    
 }
