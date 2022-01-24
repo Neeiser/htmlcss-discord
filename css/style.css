@@ -28,6 +28,14 @@ h2{
     font-weight: 800;
 }
 
+button:hover{
+    box-shadow: 2px 2px black;
+}
+
+button:active{
+    filter: brightness(70%);
+}
+
 /* TITOLAZIONE PRIMA PAGINA */
 
 .topper{
@@ -65,13 +73,6 @@ button{
     font-weight: 600;
 }
 
-button:hover{
-    box-shadow: 2px 2px black;
-}
-
-button:active{
-    background-color: darkgray;
-}
 
 /* CORPO PRIMA PAGINA */
 
@@ -209,10 +210,10 @@ footer{
 
 .footer-container{
     height: 70%;
-    margin: 5% 10%;
+    margin: 5% 8%;
 }
 .footer-container div{
-    display: inline-block;
+    float: left;
     width: 250px;
 }
 
@@ -241,3 +242,58 @@ footer{
     padding: 8% 8% 8% 0;
 }
 
+.lang .fab:hover{
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-list h4{
+    color: #7289da;
+}
+
+.footer-list {
+    font-weight: 700;
+    padding: 0 0 10px 30px;
+    line-height: 30px;
+    color: white;
+}
+
+.footer-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr {
+    border-color: #7289da;
+    width: 85%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.low-footer img{
+    margin: 0 8%;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+
+.low-footer button{
+    margin: 0 8%;
+    position: absolute;
+    top: 500px;
+    right: 0;
+    color: white;
+    background-color: #7289da;
+}
