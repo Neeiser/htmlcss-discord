@@ -10,32 +10,22 @@
     width: 100%;
 }
 
-.margin-fix{
+.page{
     height: 100vh;
     width: 100%;
-    margin: 0 10%;
 }
 
+/* TITOLAZIONE PRIMA PAGINA */
 
-/* SEZIONE 1 */
-
-
-
-.page1{
-    background-image: url(../img/jumbo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
-.header-nav-box, main{
+.topper{
     width: 100%;
     margin: 0 auto;
-    padding-top: 2%;
+    padding: 2% 0;
     text-align: center;
+    background-color: #255ee9;
 }
 
-.header-nav-box *{
+.topper *{
     display: inline-block;
     vertical-align: middle;
 }
@@ -70,41 +60,46 @@ button:active{
     background-color: darkgray;
 }
 
-.main-box{
+/* CORPO PRIMA PAGINA */
+
+.bg{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.body *{
     color: white;
+    text-align: center;
 }
 
-.main-box h2,p{
-    margin: 5% 0;
-}
-
-.main-box h2{  
+.body h2{
+    padding: 6% 0 3% 0;  
     font-size: 3em;
 }
 
-.main-box p{
+.body p{
     font-size: 1.5em;
+    margin: 0 20% 3% 20%;
 }
 
-.main-box button{
+.btns{
+    text-align: center;
+}
+
+.body button{
     font-size: 1.1em;
     padding: 20px;
     border-radius: 40px;
     margin: 0 2%;
+    color: black;
 }
-
-.main-box button:last-child{
+.fa-long-arrow-alt-down{
+    color: black;
+    padding-right: 5px;
+}
+.body button:last-child{
     background-color: #23272a;
     color: white;
-}
-
-
-
-
-/* SEZIONE 2 */
-
-
-
-.box2{
-    
 }
