@@ -1,3 +1,5 @@
+/* Impostazioni generiche in comune a tutte le pagine */
+
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +13,17 @@
 }
 
 .page{
-    height: 90%;
+    height: 85%;
     width: 100%;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 800;
 }
 
 /* TITOLAZIONE PRIMA PAGINA */
@@ -76,11 +87,9 @@ button:active{
 
 .body h2{
     padding: 6% 0 3% 0;  
-    font-size: 3em;
 }
 
 .body p{
-    font-size: 1.5em;
     margin: 0 20% 3% 20%;
 }
 
@@ -107,22 +116,23 @@ button:active{
 /* PAGINA 2 */
 
 .article{
+    width: 100%;
+    height: 100%;
     text-align: center;
-    margin: auto 0;
 }
 
-.article *{
+.article div{
+    vertical-align: top;
     display: inline-block;
 }
 
-.article div:last-child{
+.description{
     width: 400px;
+    text-align: left;
+    color: #23272a;
+    margin-left: 10%;
 }
 
-.article h2{
-    font-size: 3em;
-}
-
-.article p{
-
+.wave{
+    vertical-align: bottom;
 }
